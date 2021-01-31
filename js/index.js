@@ -1,3 +1,5 @@
+new ProductList(new Cart());
+
 function openTab(evt, producteName) {
     // Declare all variables
     var i, tabcontent, tablinks;

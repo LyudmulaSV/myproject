@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "title": "Purse",
+        "title": "Гаманець",
         "image": "pursegreen.jpg",
         "description": "Гаманець зелений",
         "price": 300.00
@@ -9,7 +9,7 @@
 
     { 
         "id": "2",
-        "title": "Purse",
+        "title": "Гаманець",
         "image": "purseblack.jpg",
         "description": "Гаманець чорний",
         "price": 400.00
@@ -17,15 +17,43 @@
     },
     {
         "id": "3",
-        "title": "Purse",
+        "title": "Гаманець",
         "image": "pursebroun.jpg",
         "description": "Гаманець коричневич",
         "price": 500.00
     },
     {
         "id": "4",
-        "title": "Purse",
+        "title": "Гаманець",
         "image": "purseclutch.jpg",
+        "description": "Гаманець-клатч",
+        "price": 600.00
+    },
+    {
+        "id": "5",
+        "title": "Взуття",
+        "image": "shoes.jpg",
+        "description": "Гаманець-клатч",
+        "price": 600.00
+    },
+    {
+        "id": "6",
+        "title": "Взуття",
+        "image": "shoesbroun.jpg",
+        "description": "Гаманець-клатч",
+        "price": 600.00
+    },
+    {
+        "id": "7",
+        "title": "Взуття",
+        "image": "shoesclassik.jpg",
+        "description": "Гаманець-клатч",
+        "price": 600.00
+    },
+    {
+        "id": "8",
+        "title": "Взуття",
+        "image": "shoessport.jpg",
         "description": "Гаманець-клатч",
         "price": 600.00
     }
