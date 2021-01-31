@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "title": "Purse",
+        "image": "pursegreen.jpg",
+        "description": "Гаманець зелений",
+        "price": 300.00
+    },
+
+    { 
+        "id": "2",
+        "title": "Purse",
+        "image": "purseblack.jpg",
+        "description": "Гаманець чорний",
+        "price": 400.00
+    
+    },
+    {
+        "id": "3",
+        "title": "Purse",
+        "image": "pursebroun.jpg",
+        "description": "Гаманець коричневич",
+        "price": 500.00
+    },
+    {
+        "id": "4",
+        "title": "Purse",
+        "image": "purseclutch.jpg",
+        "description": "Гаманець-клатч",
+        "price": 600.00
+    }
+]

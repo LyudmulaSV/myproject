@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Unna:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,700;1,800&family=Unna:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+:root {
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+}
+body {
+max-width: 1200px;
+margin: auto;
+}
+.menu {
+    color: white;
+}
+header .logo{
+    width: 70px;
+}
+header h1 {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+header p {
+    color: white;
+    font-family:  'Nunito', sans-serif;
+    font-style: unset;
+    font-weight: bold;
+}
+
+/* Controls */
+
+.button {
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    color: #FFFFFF;
+    text-align: center;
+    transition: color 0.7s;
+    background-color: transparent;
+}
+
+.button:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.card-button {
+    border-color: black;
+    color: black;
+}
+
+.card-button:hover {
+    background-color: black;
+    color: black;
+    }
+header .banner {
+    background-image: url(../img/fonfoto.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+}
+header .stend {
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+ .svg {
+    width: 70px;
+}
+.box {
+    padding: 10px;
+    margin: 10px;
+}
+.box h3 {
+    font-style: unset;
+    font-size: 0.8rem;
+    padding: 15px;
+    align-items: center;
+}
+.box p {
+    font-size: 0.70rem
+
+}
+ .about-us {
+    display: grid;
+    grid-row-gap: 10px;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+@media (min-width: 900px) {
+     .about-us {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+main .small-image {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+@media (min-width: 600px) {
+.product {
+    display: grid;
+    grid-column-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+}
+}
+@media (min-width: 900px) {
+    .product{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+}
+.product-purse {
+    margin: 30px;
+    display: grid;
+    justify-items: center;
+}
+.product-shoes {
+    margin: 30px;
+    display: grid;
+    justify-items: center;
+}
+.product-strap {
+    margin: 30px;
+    display: grid;
+    justify-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    font-size: 0.5rem;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px soli: #ccc;
+    background-color: #f1f1f1;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+main .large-photo {
+    display: block;
+    width: 100%;
+}
+carousel-inner {
+    width: 200px;
+    height: 100px;
+}
+
+main .block-information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+}
+main h3 {
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+}
+main h6 {
+    font-family: cursive;
+    color:black;
+    font-size: 2rem;
+    text-align: center;
+
+}
+main p {
+    
+    font-family: serif;
+}
+footer form label {
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+footer {
+    display: block;
+}
+footer .map {
+    min-width: 400px;
+    padding: 5px;
+    display: block;
+    width: 100%;
+
+}
+
+footer .infa-contact {
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 280px;
+    height: 220px;
+    right: 0;
+    margin: 135px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 0 10px 0.5px rgb(151, 151, 151);
+    color: grey;
+
+}
+
+
+h2 {
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+.form  {
+    max-width: 500px;
+}
+
+.form {
+  padding: 30px 40px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  color: #777;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form-control input:focus {
+  outline: 0;
+  border-color:  #777;
+}
+
+.form-control.success input {
+  border-color: var(--success-color);
+}
+
+.form-control.error input {
+  border-color: var(--error-color);
+}
+
+.form-control small {
+  color: var(--error-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form-control.error small {
+  visibility: visible;
+}
+
+.form button {
+  cursor: pointer;
+  background-color: #3498db;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
