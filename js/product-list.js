@@ -13,6 +13,9 @@ class ProductList {
     let productListDomString = '';
      const products = await this.productService.getProducts();
     [...products]
+    .sort( (a, b) => this.sortDirection === 'ascending' 
+                         ? a.id - b.id
+                         : b.id - a.id)
     .forEach(product => {
       productListDomString += `<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
                   <div class="card product">

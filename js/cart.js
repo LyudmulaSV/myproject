@@ -39,7 +39,7 @@ class Cart {
     total = total.toFixed(2);
     cartDomSting += `
                 <div class="row">
-                    <div class="col-5"><strong>TOTAL</strong></div>
+                    <div class="col-5"><strong>Загальна вартість</strong></div>
                     <div class="col-3"><strong>$${total}</strong></div>
                 </div>            
         </div>`;
